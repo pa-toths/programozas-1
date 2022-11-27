@@ -1,7 +1,6 @@
 gondoltam_szam = 4
 print(type(gondoltam_szam))
-tipp = input('Gondoltam egy számra. Tippeld meg!')
-tipp = int(tipp)
+tipp = int(input('Gondoltam egy számra. Tippeld meg!'))
 if tipp == gondoltam_szam:
     print('Ügyes!')  #igaz utasítás
 if tipp > gondoltam_szam:
