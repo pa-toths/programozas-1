@@ -1,16 +1,16 @@
-név = input("Kérem a teljes nevét:")
-év = int(input("Kérem az élet korát:"))
+név = input("Kérem a teljes nevét: ")
+év = int(input("Kérem az élet korát: "))
 if év < 2:
-    print(név , "Magga még csecsemő")
+    print("A kora alapján", név , "csecsemő!")
 elif év < 5:
-    print(név , "Magga még kisgyerek")
+    print("A kora alapján", név , "kisgyerek!")
 elif év < 12:
-    print(név , "Magga még gyerek")
+    print("A kora alapján", név , "gyerek!")
 elif év < 16:
-    print(név , "Magga még serdülő")
+    print("A kora alapján", név , "serdülő!")
 elif év < 25:
-    print(név , "Magga már ifjú")
+    print("A kora alapján", név , "ifjú!")
 elif év < 65:
-    print(név , "Magga már felnőtt")
-elif év > 65:
-    print(név , "Magga már nyugdíjas")
+    print("A kora alapján", név , "felnőtt!")
+else:
+    print("A kora alapján", név , "nyugdíjas!")
