@@ -8,3 +8,4 @@ def oszzeges_tetele(lista_oszegzes):
     print("A listában található összege: ", osszesen)
 
 oszzeges_tetele(lista1)
+sziaa bazsi miújság?
